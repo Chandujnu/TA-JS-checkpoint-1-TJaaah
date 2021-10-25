@@ -1,6 +1,15 @@
 1. Using loops take 10 inputs from user and find the average of all the numbers.
 ```js
-function averageOfNumnber()
+function averageOfNumnber() {
+  let sum = 0;
+   
+for(i = 1; i <= 10; i++) {
+  let input = +prompt(`Enter numbers`);
+  sum += input;
+ }
+ alert (`The average is ${sum / 10}`);
+}
+```
 
 2. What will be the output of the code below
 
